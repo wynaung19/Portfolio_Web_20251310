@@ -107,6 +107,10 @@ body::-webkit-scrollbar {
 #home {
   margin-bottom: 6rem;
   background: url(../img/bg-header.png) left top no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
 }
 
 .typed-cursor {
